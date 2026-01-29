@@ -36,5 +36,5 @@ async def main():
     await asyncio.sleep(30)  # run for 30 seconds
     await agent.stop()
 
-if name == "main":
+if __name__ == "__main__":
     asyncio.run(main())
